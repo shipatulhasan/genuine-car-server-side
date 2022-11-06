@@ -45,10 +45,10 @@ const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 // global
 
-// const uri = "mongodb+srv://dbGeniusCar:AZK6joqZ8RBVEItf@cluster0.0vh6mry.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dbGeniusCar:AZK6joqZ8RBVEItf@cluster0.0vh6mry.mongodb.net/?retryWrites=true&w=majority";
 
 // local
-const uri = `mongodb+srv://dbUser1:D6BfjeL6tYekaL8z@cluster0.0vh6mry.mongodb.net/test`
+
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
